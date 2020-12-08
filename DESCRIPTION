@@ -1,0 +1,25 @@
+Package: mingming
+Title: Shoot dry weight
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ming",
+           family = "Zeng",
+           role = c("aut", "cre"),
+           email = "ming.zeng@idiv.de"
+           )
+Description: Summarizing shoot dry weight during tripartie interaction
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    tibble
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
